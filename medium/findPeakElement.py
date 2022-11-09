@@ -3,6 +3,8 @@ from typing import List
 
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
+        # classic binary solution
+        
         left = 0
         right = len(nums) - 1
         
